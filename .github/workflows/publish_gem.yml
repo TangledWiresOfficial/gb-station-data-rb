@@ -1,0 +1,30 @@
+name: Publish Gem
+
+on:
+  release:
+    types:
+      - published
+
+jobs:
+  push:
+    if: github.repository == 'TangledWiresOfficial/gb-station-data-rb'
+    runs-on: ubuntu-latest
+
+    permissions:
+      id-token: write
+
+    steps:
+      # Set up
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          persist-credentials: false
+
+      - name: Set up Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          bundler-cache: true
+          ruby-version: ruby
+
+      # Release
+      - uses: rubygems/release-gem@v1
