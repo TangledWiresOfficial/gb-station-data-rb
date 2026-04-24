@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    gb-station-data (6.0.1)
+    gb-station-data (6.0.2)
 
 GEM
   remote: https://rubygems.org/
