@@ -6,5 +6,5 @@ Gem::Specification.new do |s|
   s.email = "support@tangledwires.co.uk"
   s.license = "MIT"
 
-  s.files = Dir["lib/**/*.rb"]
+  s.files = Dir.glob ["lib/**/*.rb", "lib/**/*.json"]
 end
