@@ -1,4 +1,10 @@
+PATH
+  remote: .
+  specs:
+    gb-station-data (6.0.0)
+
 GEM
+  remote: https://rubygems.org/
   specs:
 
 PLATFORMS
@@ -6,6 +12,7 @@ PLATFORMS
   x86_64-linux
 
 DEPENDENCIES
+  gb-station-data!
 
 BUNDLED WITH
    2.7.2
