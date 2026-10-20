@@ -1,7 +1,7 @@
 Gem::Specification.new do |s|
   s.name = "gb-station-data"
   s.summary = "Data from https://github.com/TangledWiresOfficial/gb-station-data"
-  s.version = "11.0.0"
+  s.version = "11.1.0"
   s.authors = ["TangledWires Ltd"]
   s.email = "support@tangledwires.co.uk"
   s.license = "MIT"

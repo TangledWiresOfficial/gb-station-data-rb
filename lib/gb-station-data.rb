@@ -6,4 +6,5 @@ module GbStationData
   STATIONS = JSON.parse(File.read("#{DATA_PATH}/stations.json")).freeze
   LINES = JSON.parse(File.read("#{DATA_PATH}/lines.json")).freeze
   TOCS = JSON.parse(File.read("#{DATA_PATH}/tocs.json")).freeze
+  CATEGORIES = JSON.parse(File.read("#{DATA_PATH}/categories.json")).freeze
 end
